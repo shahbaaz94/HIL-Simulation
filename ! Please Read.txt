@@ -1,0 +1,33 @@
+Mech6621
+Ziyang Wang
+Shahbaaz Mohammad
+Killadi Mohan Kumar
+
+Folder structure:
+
+Important plots.docx and three videos are for quick-review.
+
+Mainly we control mu the friction coefficient to achieve traction/launch/speed/brake
+control. We set 2 senarios to demonstrate system performance.
+
+"HIL_simulator1 PID control mu max speed traction_launch_speed_brake" is to accelerate 
+to max speed(800 rads/s), stay at the speed for a while, and then brake.
+
+"HIL_simulator2 PID control mu normal speed traction_launch_speed_brake" is to accelerate 
+to certain speed below 800 rads/s, stay at that speed for a while, and then brake.
+
+We added a last minute modification to our launch control and traction control. Basically we
+change to control slipratio instead of mu.
+
+"HIL_simulator3 PID control slipratio traction_launch" demonstrate our result.
+
+Two folders with "simulation" in their names are simulation results of the two methods 
+mentioned above.
+
+Three videos show the 3 runs of 3 HIL simulators, 3 mins each.
+
+Three documents contains records of all the test runs, including the final results. All the
+plots in the final report are from these docs.
+
+All folders include history .txt or .csv files containing final test data.
+
